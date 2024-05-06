@@ -1,0 +1,8 @@
+{
+    "editor.cursorBlinking": "smooth",
+    "powermode.enabled": true,
+    "powermode.presets": "flames",
+    "powermode.combo.location": "editor",
+    "powermode.combo.counterSize": 4,
+    "powermode.shake.intensity": 3
+}
