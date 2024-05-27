@@ -48,27 +48,24 @@ It's a simple blog app. You can create one or multiple accounts. You have the po
 
 Here's a brief overview of the project's structure:
 
-flask-project/
-├── app/
+FLASK-BLOG/
+├── website/
 │ ├── init.py
-│ ├── routes.py
+│ ├── views.py
 │ └── templates/
-│ └── index.html
-├── venv/
+│ └── auth.py
+│ └── models.py
 ├── .gitignore
-├── requirements.txt
 ├── README.md
-└── run.py
+└── app.py
 
 markdown
 Copy code
 
-- `app/`: Contains the application modules.
-- `venv/`: Virtual environment directory.
+- `website/`: Contains the application modules.
 - `.gitignore`: Specifies files and directories to be ignored by git.
-- `requirements.txt`: Lists the Python dependencies.
 - `README.md`: This file.
-- `run.py`: The entry point for the Flask application.
+- `app.py`: The entry point for the Flask application.
 
 ## Contributing
 
